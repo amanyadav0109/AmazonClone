@@ -1,0 +1,39 @@
+.footer{
+color: white;
+background-color: #232F3E;
+padding: 50px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.amazonimg{
+    margin-top: 40px;
+}
+.amazonfooterimg{
+    width: 110px;
+
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+   
+}
+
+.footersubtittle a{
+    display: flex;
+    flex-direction:column;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.footertittle{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}

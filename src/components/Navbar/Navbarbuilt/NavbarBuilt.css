@@ -1,0 +1,211 @@
+.navbarbilt{
+    background-color: #121921;
+    display: flex;
+    width: 100%;
+    height:60px;
+    box-sizing: border-box;
+    color: white;
+}
+.leftnavbilt{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+
+}
+.navbiltlogo{
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 7px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid ;
+        border-radius: 3px;
+    }
+
+}
+.amazonlogonavbar{
+    width: 97px;
+    height: 100%;
+    margin-right: 5px;
+    margin-top: 4px;
+    
+
+}
+.navbar-inlogo{
+    margin-left:px;
+    font-weight: 400;
+}
+/* ....................................................navbar logo */
+
+.locationicon{
+    font-size:22px !important;
+    margin-top: 3px;
+
+}
+.navbarbiltlocation{
+   display: flex;
+     gap: 5px;
+    padding: 8px;
+    height: 30px;
+     cursor: pointer;
+     &:hover{
+           border: 1px solid ;
+         border-radius: 3px;
+        }
+}
+.navbarbiltlocationimg{
+    width: 15px;
+    padding-top: 7px;
+}
+.navbarbiltlocationplace{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.navbarbiltlocationtop{
+ font-size: 12px;
+ color: #ccc;
+ letter-spacing: 0.5px;
+ font-weight: 500;   
+}
+.navbarbiltlocationbottom{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+}
+/*...........................................  */
+.navbiltsearchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    width: 50%;
+}
+.navbiltsearchdiv{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #131921;
+}
+.navbiltsearchboxall{
+    display: flex;
+    background-color: #cdcdcd;
+    gap: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    color: #999999;
+}
+.navbiltsearchboxalltext{
+font-size: 12px;
+font-weight: 600;
+}
+.navbiltinputsearchbox{
+    padding: 5px;
+    width: 84%;
+    &::placeholder{
+        color: gray;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.navbiltsearchicondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: #f1ba73;
+       
+    }
+    cursor: pointer;
+    padding: 10px;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10px;
+}
+.navbiltsearchicon{
+    font-size: 20px;
+    color: #131921;
+    cursor: pointer;
+}
+/* ............................................. */
+.rightsidenavbarbilt{
+    padding: 10px;
+    color: white;
+    display: flex;
+    gap: 1px;
+}
+.indiaflag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    padding-top: 10px;
+    gap: 5px;
+    cursor: pointer;
+    height: 30px;
+    &:hover{
+        border: 1px solid ;
+        border-radius: 3px;
+    }
+}
+.flag{
+    width: 30px;
+    height: 20px;
+   
+}
+.indiacodenavbarbilt{
+    font-size: 14px;
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    font-weight: 700;
+}
+.indiacodenavbarbiltdrop{
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-left: -0.4px;
+}
+.hellosiginnavbar{
+    display: flex;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    height: 30px;
+    padding: 8px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid ;
+        border-radius: 3px;
+    }
+
+}
+.hellotopnavbar{
+    font-size: 12px;
+    font-weight: 500;
+}
+.carttittle{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.cartitemnumbernavbar{
+    position: absolute;
+    bottom: 70%;
+    left: 22%;
+    color: #febd69;
+    font-weight: 600;
+    font-size: 16px;
+}
